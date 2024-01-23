@@ -84,7 +84,7 @@ const fetchItems = async () => {
       params.title = `*${filters.searchQuery}*`
     }
 
-    const { data } = await axios.get(`https://604781a0efa572c1.mokky.dev/items`, {
+    const { data } = await axios.get(`https://519f95d24c1ae5f0.mokky.dev/items`, {
       params
     })
 
